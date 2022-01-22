@@ -1,0 +1,71 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .card{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px  4px 18px rgba(124, 117, 117, 0.671) ;
+    border-radius: 15px;
+    width: 400px;
+  }
+  
+  .title{
+    color: rgb(129, 13, 13);
+    font-size: 30px;
+    font-family: "Poppins" sans-serif;
+    font-weight: 700;
+  }
+  
+  .secutitle{
+    color: rgba(34, 15, 15, 0.616);
+    font-size: 20px;
+    font-family: "poppins" sans-serif;
+    font-weight: 600;
+  }
+  
+  
+  
+  .media-card{
+  background: url( "https://lh3.googleusercontent.com/vU9Km-YM-xLvRE9iECeWuBt_fXU04m0DAnqjArw3YBdIGv1ifHn7qd_-z5gxH3ChcvANTZID3LzxtA5W0NaeAy_VyEI_-Ho67p3ZenruYkUU7uhLax_0FTn72Yh7JzKCgg8SP3JyQFoAY_5sZc3tq-akhxY-DIAfgRUEDo_rcDDgnyDbvNmQaqtrCfNvBueCMKu5sLKi6FOtn9Hv3UtuL2XmjE-oa63sWwODEjO7WNKjko-tB1Ju7QsFJhaD052zL5sy408ao8E2rowAChth-pBWkl07oZB4tIMEbl5PwX_lMFWnoo2w7NJG79n6dW3hSAm_N7eK3F0nALdyZNcYEULs1AAj-D7LUU3XZWauAWlEwo3m1G-ALGBvME2u9KHi3TeMMZXR4zkYHugVbIw5warasTb177oi_rLS5c55fCz7y8jhMnEORbJ6Jn3wnTno9x3rV0Aeruc2_xWzZjX8CgHOLlKS2o9_svQwGH-TW_OzkRsdd79TB4xpvDK0xppE9nnSz-4_fLQtpzrVANmASbwKO9U1HmPGXXHThfVrUHGppHnsQ4CGJODm9r61lzn92WPYuIx4URZTTp2k8T780nIEBa3N4ejOqXkd7aX6WkKJ3uKoA_5GThob_Z3tzg8h0SCUg1tLGq6Rk7POmXHmcrTmV_WMmoqZeM9NKn6hJIb3l6-t1n_YFucJcGa8cgnLwU-MQjYNEnsYcYXQUeO7_5vmiw=w291-h388-no?authuser=0"  )center/cover;
+    height: 400px;
+    width: 100%;
+
+  }
+  
+  .top-card{
+    padding: 20px ;
+    padding-top: 0px;
+  }
+  .bottom-card{
+    padding:20px ;
+  }
+  .bottom-text{
+    font-size: 30px;
+    font-family: "Poppins" sans-serif;
+    font-weight: 700;
+    color: rgb(37, 19, 19);
+  }
+  .actions{
+    text-decoration: none ;
+    background: rgba(220, 20, 60, 0.959);
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    color:rgb(248, 244, 244);
+  }
+  
+  .actions:hover{
+    cursor: pointer;
+    background-color: rgb(172, 59, 81);
+    transition: 0.3s;
+   
+  }
+
+  @media only screen and (max-device-width: 320px) {
+    .card  { width:320px; } }
+    

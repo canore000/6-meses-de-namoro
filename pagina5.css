@@ -1,0 +1,67 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .card{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px  4px 18px rgba(124, 117, 117, 0.671) ;
+    border-radius: 15px;
+    width: 400px;
+  }
+  
+  .title{
+    color: rgb(129, 13, 13);
+    font-size: 30px;
+    font-family: "Poppins" sans-serif;
+    font-weight: 700;
+  }
+  
+  .secutitle{
+    color: rgba(34, 15, 15, 0.616);
+    font-size: 20px;
+    font-family: "poppins" sans-serif;
+    font-weight: 600;
+  }
+  
+  
+  
+  .media-card{
+  background: url("https://lh3.googleusercontent.com/GHwOe8CvS2FwHHyO5q5d4A-mwrZSLQvfFJPcrv4OeEgx8brlwgZ1xyvArzA1S4MTWG82iWuN5prLn-Tz1J-zEPJwMpsJ6yGzB6d1wA2bcYrMIG2WWoythl9VRMxjXvTqJZHt1kZs-D8LgIJZNKKAkpQo4UupSnk1_nb9Z9jm1S0fcf2164zw95nQddJ5U4Z05cMC6XGuNzZ_KdMw-BEObKQYoh8J8YD2mypOxjC_q4v0UZ0oZqFr95ooIVjqtivUtzcmXYVl6ppg2_jE_RHTZXT9Bb21-zAIfDREaAc6TecoO_bLR-XsWpXsliGH-qUevywEYHVmLA3GMtYJjGQbsjebNFJ1wqDWL53jYV7lUhmE7Xy7tE-k7sxK9R7Y2RKEDLc8SZW_P3rVtl09SDFXIgFRQalLYHPlW-oNcKVZoApy3tI6jkUv9Bh0kX64QwupDL3m9Tht_R18H_qqWYVGBZzz3L3AM-ItEsJ9NWwThQbZxGXxaaOe5cP4YTUb0qa0LftqHFe54HGv5HNdsBRHcgzrjFPbQ-aeKYKQS_CN03pOGGP8ILKbcYHnykUp4_qzhYKvsT9L8s9rXGFmsvyPPR4O6V-JD08BwsfL9kynMbF6WCql7N8OnDoWK3DgHwZifJUsRsMR10oPHV-71Rq731CbHwPcA4EkZrddEhOo76KfyAQhPWptL9BoXJKYZR3xi_0meAmPaC6gPGi_YxD6G9UT6g=w291-h388-no?authuser=0"   )center/cover;
+    height: 400px;
+    width: 100%;
+
+  }
+  
+  .top-card{
+    padding: 20px ;
+    padding-top: 0px;
+  }
+  .bottom-card{
+    padding:20px ;
+  }
+  .bottom-text{
+    font-size: 30px;
+    font-family: "Poppins" sans-serif;
+    font-weight: 700;
+    color: rgb(37, 19, 19);
+  }
+  .actions{
+    text-decoration: none ;
+    background: rgba(220, 20, 60, 0.959);
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    color:rgb(248, 244, 244);
+  }
+  
+  .actions:hover{
+    cursor: pointer;
+    background-color: rgb(172, 59, 81);
+    transition: 0.3s;
+   
+  }
